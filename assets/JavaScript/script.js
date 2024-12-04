@@ -30,8 +30,6 @@ class Sprite {
     }
 }
 
-
-
 const player = new Sprite({
     position: {
     x: 0, 
@@ -42,8 +40,6 @@ const player = new Sprite({
     y: 10
     }
 })
-
-
 
 const enemy = new Sprite({
     position: {
@@ -56,8 +52,6 @@ const enemy = new Sprite({
     }
 })
 
-
-
 console.log(player);
 
 function animate() {
@@ -68,7 +62,10 @@ function animate() {
     player.update()
     enemy.update()
 }
+
 animate()
+
+
 
 
 
